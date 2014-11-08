@@ -30,6 +30,21 @@ nav {
 	padding: 10px;
 	background-color: #5a7e4b;
 }
+<<<<<<< HEAD
+=======
+section {
+	padding: 10px; 
+	background-color: #95fc87;
+	min-height: 300px;
+}
+section:nth-of-type(even) {
+	background-color: #a9ec71;
+}
+footer {
+	padding: 10px; 
+	background-color: #38a638;
+}
+>>>>>>> 1e078f7bc8b0a484dbb6fb47be8571d39c986f5b
  
 nav#mainmenu {
 	text-align: center;
@@ -69,6 +84,7 @@ nav#speciesnav a:hover {
 	text-decoration: none;
 }
 
+<<<<<<< HEAD
 section {
 	padding: 10px; 
 	background-color: #95fc87;
@@ -82,6 +98,8 @@ footer {
 	background-color: #38a638;
 }
 
+=======
+>>>>>>> 1e078f7bc8b0a484dbb6fb47be8571d39c986f5b
  
 
 
