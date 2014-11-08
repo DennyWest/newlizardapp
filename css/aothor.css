@@ -30,18 +30,6 @@ nav {
 	padding: 10px;
 	background-color: #5a7e4b;
 }
-section {
-	padding: 10px; 
-	background-color: #95fc87;
-	min-height: 300px;
-}
-section:nth-of-type(even) {
-	background-color: #a9ec71;
-}
-footer {
-	padding: 10px; 
-	background-color: #38a638;
-}
  
 nav#mainmenu {
 	text-align: center;
@@ -79,6 +67,19 @@ nav#speciesnav a {
 nav#speciesnav a:hover {
 	background: #fff;
 	text-decoration: none;
+}
+
+section {
+	padding: 10px; 
+	background-color: #95fc87;
+	min-height: 300px;
+}
+section:nth-of-type(even) {
+	background-color: #a9ec71;
+}
+footer {
+	padding: 10px; 
+	background-color: #38a638;
 }
 
  
