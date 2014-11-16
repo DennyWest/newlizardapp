@@ -78,6 +78,7 @@ section:nth-of-type(even) {
 	background-color: #a9ec71;
 }
 footer {
+	/*clear: all;*/
 	padding: 10px; 
 	background-color: #38a638;
 }
