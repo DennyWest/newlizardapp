@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id        = "com.ajsoftware.lynda.samoca"
+		versionCode="1"
+		version   = "1.0">
+		<name>SAMOCA</name>
+		<description>
+A sample app for Up and Running with PhoneGap Build		</description>
+		<author href="chrisgriffith.wordpress.com" email="chris.griffith@gmail.com">
+Chris Griffith
+		</author>
+		<preference name="phonegap-version" value="3.6.3" />
+		<preference name="orientation" value="portrait" />
+		<preference name="target-device" value="universal" />
+		<preference name="fullscreen" value="false" />
+		<preference name="webviewbounce" value="false" />
+		<preference name="DisallowOverscroll" value="true"/>
+		<preference name="disallowOverscroll" value="true" />
+		<preference name="prerendered-icon" value="false" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="default" />
+		<preference name="detect-data-types" value="true" />
+		<preference name="exit-on-suspend" value="false" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="disable-cursor" value="false" />
+		<preference name="android-minSdkVersion" value="14" />
+		<preference name="android-targetSdkVersion" value="14" />
+		<preference name="android-installLocation" value="auto" />
+		<preference name="splash-screen-duration" value="5000" />
+		<preference name="load-url-timeout" value="20000" />
+		<preference name="KeepRunning" value="true"/>
+		<preference name="DisallowOverscroll" value="false"/>
+		<preference name="BackgroundColor" value="0xffffffff "/>
+
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		<gap:platform name="winphone" />
+
+		<feature name="http://api.phonegap.com/1.0/camera"/>
+		<feature name="http://api.phonegap.com/1.0/file"/>
+		<feature name="http://api.phonegap.com/1.0/geolocation"/>
+		<feature name="http://api.phonegap.com/1.0/network"/>
+
+		<gap:plugin name="org.apache.cordova.camera"  />
+		<gap:plugin name="org.apache.cordova.geolocation"  />
+		<gap:plugin name="org.apache.cordova.dialogs"  />
+		<gap:plugin name="org.apache.cordova.device"  />
+		<gap:plugin name="org.apache.cordova.network-information"  />
+		<gap:plugin name="org.apache.cordova.console"  />
+		<gap:plugin name="org.apache.cordova.inappbrowser"  />
+		<gap:plugin name="org.apache.cordova.network-information"  />
+		<gap:plugin name="org.apache.cordova.splashscreen"  />
+
+		<access origin="*" subdomains="true" />
+	</widget>
