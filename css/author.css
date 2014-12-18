@@ -12,9 +12,10 @@ body {background-color: #333;}
 	width: 90%;
 	margin: auto;
 }
-h1, h2, h3, h4, p { text-align: center; }
+h1, h2, h3, h4, h6, p { text-align: center; }
 h2 {position: relative; top: -15px;}
 h4 {position: relative; top: -6px; padding-bottom: 5px;}
+h6 {position: relative; top: -50px; padding-bottom: 5px;}
 
 p {
 	padding-bottom: 20px;
@@ -81,6 +82,23 @@ footer {
 	/*clear: all;*/
 	padding: 10px; 
 	background-color: #38a638;
+}
+section a {
+	color: #353334;
+}
+section a:hover {
+	text-decoration: none;
+	color: #a8a1a5;
+}
+section#section2 h6 {
+	position: relative;
+	top: -22px; 
+	padding-bottom: 5px;
+	color: #353334;
+}
+section#section2 h6:hover {
+	text-decoration: none;
+	color: #a8a1a5;
 }
 
  
