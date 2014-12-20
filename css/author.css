@@ -12,6 +12,8 @@ body {background-color: #333;}
 	width: 90%;
 	margin: auto;
 }
+#image {display: none;}
+
 h1, h2, h3, h4, h6, p { text-align: center; }
 h2 {position: relative; top: -15px;}
 h4 {position: relative; top: -6px; padding-bottom: 5px;}
