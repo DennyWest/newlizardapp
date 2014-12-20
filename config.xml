@@ -1,45 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-	<widget xmlns = "http://www.w3.org/ns/widgets"
-		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id        = "com.denny.none.addstufftoseeifitchangesingithub"
-		versionCode="1"
-		version   = "1.0">
-		<name>SoCal Lizard App</name>
-		<description>
-A sample app for Up and Running with PhoneGap Build		</description>
-		<author href="charlesdenisonwest.com" email="moncoon2@aol.com">
-Denny West
-		</author>
-		<preference name="phonegap-version" value="3.6.3" />
-		<preference name="orientation" value="portrait" />
-		<preference name="target-device" value="universal" />
-		<preference name="fullscreen" value="false" />
-		<preference name="webviewbounce" value="false" />
-		<preference name="DisallowOverscroll" value="true"/>
-		<preference name="disallowOverscroll" value="true" />
-		<preference name="prerendered-icon" value="false" />
-		<preference name="stay-in-webview" value="true" />
-		<preference name="android-minSdkVersion" value="14" />
-		<preference name="android-targetSdkVersion" value="14" />
-		<preference name="android-installLocation" value="auto" />
-		<preference name="load-url-timeout" value="20000" />
-		<preference name="KeepRunning" value="true"/>
-		<preference name="DisallowOverscroll" value="false"/>
-		<preference name="BackgroundColor" value="0xffffffff "/>
-
-		<gap:platform name="android" />
-
-		<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
-		<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
-		<icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
-		<icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
-		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
-
-
-		<feature name="http://api.phonegap.com/1.0/camera"/>
-		<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
-
-
-
-		<access origin="*" subdomains="true" />
-	</widget>
+<?xml version="1.0" encoding="UTF-8"?>	<widget xmlns = "http://www.w3.org/ns/widgets"		xmlns:gap = "http://phonegap.com/ns/1.0"		id        = "com.charleswest.noname"		versionCode="1.0.0"		version   = "1.0">		<name>SoCal Lizard Finder</name>		<description>An alfa what lizard is this finder.		</description>		<author href="com.CHARLESdenisonWEST.www" email="moncoon2@aol.com">DennyWest		</author>		<preference name="phonegap-version" value="3.6.3" />		<preference name="orientation" value="default" />		<preference name="fullscreen" value="false" />		<preference name="target-device" value="universal" />		<preference name="webviewbounce" value="true" />		<preference name="prerendered-icon" value="true" />		<preference name="stay-in-webview" value="true" />		<preference name="ios-statusbarstyle" value="default" />		<preference name="detect-data-types" value="true" />		<preference name="exit-on-suspend" value="true" />		<preference name="show-splash-screen-spinner" value="true" />		<preference name="auto-hide-splash-screen" value="true" />		<preference name="EnableViewportScale" value="true" />		<preference name="MediaPlaybackRequiresUserAction" value="false" />		<preference name="AllowInlineMediaPlayback" value="false" />		<preference name="BackupWebStorage" value="cloud" />		<preference name="TopActivityIndicator" value="gray" />		<preference name="KeyboardDisplayRequiresUserAction" value="false" />		<preference name="HideKeyboardFormAccessoryBar" value="true" />		<preference name="SuppressesIncrementalRendering" value="false" />		<preference name="android-minSdkVersion" value="12" />		<preference name="android-maxSdkVersion" value="12" />		<preference name="android-targetSdkVersion" value="11" />		<preference name="android-installLocation" value="auto" />		<preference name="SplashScreenDelay" value="5000" />		<preference name="ErrorUrl" value=""/>		<preference name="BackgroundColor" value="0x000000"/>		<preference name="KeepRunning" value="true"/>		<preference name="DisallowOverscroll" value="false"/>		<preference name="LoadingDialog" value=","/> 		<preference name="LoadUrlTimeoutValue" value="20000" />		<preference name="disable-cursor" value="false" />		<gap:platform name="ios" />		<gap:platform name="android" />		<gap:platform name="winphone" />		<feature name="http://api.phonegap.com/1.0/camera"/>		<feature name="http://api.phonegap.com/1.0/camera"/>		<gap:plugin name="org.apache.cordova.camera"  />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="ios" width="57" height="57" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="ios" width="72" height="72" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="ios" width="114" height="114" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="ios" width="144" height="144" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="ios" width="76" height="76" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="ios" width="120" height="120" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="ios" width="152" height="152" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="ldpi" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="mdpi" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="hdpi" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xhdpi" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxxhdpi" />		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="winphone" />		<icon src="res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background" />		<icon src="res/icon/android/icon-144-xxhdpi.png" />	</widget>
