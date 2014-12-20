@@ -12,6 +12,11 @@ body {background-color: #333;}
 	width: 90%;
 	margin: auto;
 }
+
+button {
+	position: relative;
+	bottom: -200px;
+}
 #image {display: none;}
 
 h1, h2, h3, h4, h6, p { text-align: center; }

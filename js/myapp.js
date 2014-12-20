@@ -8,7 +8,7 @@ function phonegapLoaded() {
 
 function takePicture() {
 
-	navigator.camera.getPicture(onSuccess, onFail, {quality: 70, destinationType: camera.DestinationType.FILE_URI});
+	navigator.camera.getPicture(onSuccess, onFail, {quality: 50, destinationType: camera.DestinationType.FILE_URI});
 }
 
 function onSuccess(imageURI) {
