@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Camera</title>
+
+	<link rel="stylesheet" type="text/css" href="css/author.css">
+	<link rel="stylesheet" type="text/css" href="css/camera.css">
+
+	<script src="js/phonegap-1.1.0.js" type="text/javascript"></script>
+	<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+
+	<script>
+	$( document ).bind( 'deviceready', function() {
+
+		$( 'btnCamera' ).bind( 'touchstart', function() {
+			navigator.camera.getPicture( function( data ) {
+				$( '.capture' )
+					attr( 'src', 'data:image/jpeg;base64, ' + data )
+					.css( 'visibility', 'visible' );
+			}, function( error ) {
+				console.log( 'Error' );
+			}, {
+				destinationType: Camera.DestinationType.DATA_URL,
+				sourceType: Camera.PictureSourceType.CAMERA,
+				allowEdit: false,
+				targetWidth: 200,
+				targetHeight: 300				
+			} );
+		} );
+
+		$( '#btnGallery' ).bind( 'touchstart', function() {
+			navigator.camera.getPicture( function( data ) {
+				$( '.capture' )
+					.attr( 'src', 'data:image/jpeg;base64, ' + data )
+					.css( 'visibility', 'visible' );
+				}, function( error ) {
+					console.log( 'Error' );
+				}, {
+					destinationType: Camera.DestinationType.DATA_URL,
+					sourceType: Camera.PictureSourceType.PHOTOLIBRARY,
+					allowEdit: false,
+					targetWidth: 200,
+					targetHeight: 300,
+					mediaType: Camera.mediaType.PICTURE 
+				} );
+			} );
+
+		$( '.capture' ).load( function() {
+			$( this )
+		} );
+	} );
+	</script>
+
+</head>
+<body>
+<button>Camera</button>
+<button>Gallery</button>
+</body>
+</html>
