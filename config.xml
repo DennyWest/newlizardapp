@@ -27,9 +27,7 @@ Denny West
 		<preference name="DisallowOverscroll" value="false"/>
 		<preference name="BackgroundColor" value="0xffffffff "/>
 
-		<gap:platform name="ios" />
 		<gap:platform name="android" />
-		<gap:platform name="winphone" />
 
 		<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
 		<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
@@ -39,8 +37,9 @@ Denny West
 
 
 		<feature name="http://api.phonegap.com/1.0/camera"/>
+		<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
 
-		<gap:plugin name="org.apache.cordova.camera"  />
+
 
 		<access origin="*" subdomains="true" />
 	</widget>
